@@ -58,4 +58,4 @@ void *producer_func(void *arg){
         pthread_mutex_unlock(&resource_lock);
     }
     return NULL;
-   
+}   
